@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ProductCartContainer = styled.div`
   width: 100%;
@@ -50,4 +50,6 @@ export const Name = styled.span`
 
 export const Price = styled.span`
   width: 10%;
+  position: relative;
+  right: 20px;
 `;
