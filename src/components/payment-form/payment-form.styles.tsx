@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import Button from '../button/button.component';
+import Button from "../button/button.component";
 
 export const PaymentFormContainer = styled.div`
   height: 300px;
@@ -13,6 +13,10 @@ export const PaymentFormContainer = styled.div`
 export const FormContainer = styled.form`
   height: 100px;
   min-width: 500px;
+  @media screen and (max-width: 800px) {
+    min-width: unset;
+    width: 80vw;
+  }
 `;
 
 export const PaymentButton = styled(Button)`
